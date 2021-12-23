@@ -16,7 +16,7 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME" Language="zh_Hans_CN">
 			<Text>岩与契约的海港</Text>
 		</Row>
-		<Row Tag="LOC_TTRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拥有具有多种能力的专属特色总督。港口和商业中心从相邻区域获得标准 [ICON_Gold] 金币相邻加成。拥有市场和灯塔的城市提供+1 [ICON_Traderoute] 贸易路线容量。输入的国外 [ICON_TradeRoute] 贸易路线提供+5 [ICON_Gold] 金币。通过矿山和采石场改良的资源提供+1 [ICON_Production] 生产力。通过矿山和采石场改良的奢侈品资源额外提供+1 [ICON_Culture] 文化值和+2 [ICON_Gold] 金币。</Text>
 		</Row>
 		<Row Tag="LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" Language="zh_Hans_CN">
@@ -59,7 +59,7 @@
 			<Text>往生堂</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2 [ICCON_Gold] 金币和 [ICON_Amenities] 宜居度。</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2 [ICON_Gold] 金币和 [ICON_Amenities] 宜居度。</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WANMIN_RESTAURANT_NAME" Language="zh_Hans_CN">
 			<Text>万民堂</Text>
@@ -83,7 +83,7 @@
 			<Text>万文集舍</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WANWEN_BOOKHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2 [ICON_Culture] 文化和+3 [ICCON_Gold] 金币。</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2 [ICON_Culture] 文化和+3 [ICON_Gold] 金币。</Text>
 		</Row>		
 		<Row Tag="LOC_BUILDING_BUBU_PHARMACY_NAME" Language="zh_Hans_CN">
 			<Text>不卜卢</Text>

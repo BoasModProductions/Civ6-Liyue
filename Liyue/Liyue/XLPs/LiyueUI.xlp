@@ -78,11 +78,11 @@
 			<m_ObjectName text="Emblem_Liyue_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LEADER_KEQING_NEUTRAL"/>
+			<m_EntryID text="LEADER_KEQING_LOADING"/>
 			<m_ObjectName text="LEADER_KEQING_NEUTRAL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LEADER_KEQING_LOADING"/>
+			<m_EntryID text="LEADER_KEQING_NEUTRAL"/>
 			<m_ObjectName text="LEADER_KEQING_LOADING"/>
 		</Element>
 		<Element>

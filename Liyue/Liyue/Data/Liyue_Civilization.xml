@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="CIVILIZATION_LIYUE_CL" Kind="KIND_CIVILIZATION"/>
-		<Row Type="TRAIT_CIVILIZATION_GEO_HARBOR" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_LAWHOUSE" Kind="KIND_TRAIT"/>
@@ -10,31 +8,14 @@
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_CIVILIZATION_UNIT_MILLELITH" Kind="KIND_TRAIT"/>
 	</Types>
-	
-	<Civilizations>
-		<Row>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<Name>LOC_CIVILIZATION_LIYUE_CL_NAME</Name>
-			<Description>LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION</Description>
-			<Adjective>LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE</Adjective>
-			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
-		</Row>
-	</Civilizations>
 
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_KEQING" CapitalName="LOC_CITY_NAME_LIYUE" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_NINGGUANG" CapitalName="LOC_CITY_NAME_LIYUE" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_KEQING" CapitalName="LOC_CITY_NAME_LIYUE_CL_1" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_NINGGUANG" CapitalName="LOC_CITY_NAME_LIYUE_CL_1" />
 	</CivilizationLeaders>
 
-	<CivilizationInfo>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" Header="LOC_CIVINFO_LIYUE_LOCATION" Caption="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" />
-	</CivilizationInfo>
-
 	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_GEO_HARBOR"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_LAWHOUSE"/>
@@ -42,10 +23,8 @@
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH"/>
 	</CivilizationTraits>
 	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" Name="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Description="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR" Name="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME" Description="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT" Name="LOC_BUILDING_WANMIN_RESTAURANT_NAME" Description="LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_LAWHOUSE" Name="LOC_BUILDING_LAWHOUSE_NAME" Description="LOC_BUILDING_LAWHOUSE_DESCRIPTION"/>
@@ -53,39 +32,19 @@
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE" Name="LOC_BUILDING_WANWEN_BOOKHOUSE_NAME" Description="LOC_BUILDING_WANWEN_BOOKHOUSE_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY" Name="LOC_BUILDING_BUBU_PHARMACY_NAME" Description="LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND" Name="LOC_UNIT_XINYAN_ROCK_BAND_NAME" Description="LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION"/>
-		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" Name="LOC_UNIT_MILLELITH_NAME" Description="LOC_UNIT_MILLELITH_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_BROKEN_PLEDGE" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DUPLICATE_TRADE_ROUTE" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_ADJACENCY_BONUS" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_PRODUCTION"/>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_CULTURE"/>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_GOLD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_BROKEN_PLEDGE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_DUPLICATE_TRADE_ROUTE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_HARBOR_ADJACENCY_BONUS"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_BROKEN_PLEDGE</ModifierType>
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_HARBOR_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_HARBOR_BUILDINGS_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_DISTRICT_COMMERCIAL_HUB_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_DISTRICT_COMMERCIAL_HUB_BUILDINGS_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
@@ -103,21 +62,6 @@
 			<ModifierId>MODIFIER_DUPLICATE_TRADE_ROUTE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>HAS_RESOURCE</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>HAS_LUXURY</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_GOLD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>HAS_LUXURY</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -145,46 +89,6 @@
 			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
 			<Name>SimpleModifierDescription</Name>
 			<Value>LOC_DIPLO_MODIFIER_BROKEN_PLEDGE</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_HARBOR_PRODUCTION</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_HARBOR</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_HARBOR_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_HARBOR_BUILDINGS_PRODUCTION</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_HARBOR</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_HARBOR_BUILDINGS_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_DISTRICT_COMMERCIAL_HUB_PRODUCTION</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_COMMERCIAL_HUB</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_DISTRICT_COMMERCIAL_HUB_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_DISTRICT_COMMERCIAL_HUB_BUILDINGS_PRODUCTION</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_COMMERCIAL_HUB</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_DISTRICT_COMMERCIAL_HUB_BUILDINGS_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
 		</Row>
 		<Row>
 			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
@@ -246,36 +150,6 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_GOLD</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_GOLD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
 	</ModifierArguments>
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
@@ -283,9 +157,6 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<Row RequirementSetId="HAS_RESOURCE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HAS_LUXURY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -296,12 +167,6 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 		</Row>
-		<Row RequirementSetId="HAS_RESOURCE" RequirementId="REQ_HAS_RESOURCE"/>
-		<Row RequirementSetId="HAS_RESOURCE" RequirementId="REQ_HAS_IMPROVEMENT"/>
-		<Row RequirementSetId="HAS_LUXURY" RequirementId="REQ_HAS_LUXURY"/>
-		<Row RequirementSetId="HAS_LUXURY" RequirementId="REQ_HAS_IMPROVEMENT"/>
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="REQ_HAS_IMPROVEMENT_MINE"/>
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="REQ_HAS_IMPROVEMENT_QUARRY"/>
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
@@ -313,11 +178,6 @@
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
-		<Row RequirementId="REQ_HAS_RESOURCE" RequirementType="REQUIREMENT_PLOT_HAS_ANY_RESOURCE"/>
-		<Row RequirementId="REQ_HAS_LUXURY" RequirementType="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_HAS_IMPROVEMENT" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
-		<Row RequirementId="REQ_HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>		
 	</Requirements>
 	<RequirementArguments>
 		<Row>
@@ -330,93 +190,9 @@
 			<Name>BuildingType</Name>
 			<Value>BUILDING_LIGHTHOUSE</Value>
 		</Row>
-		<Row RequirementId="REQ_HAS_LUXURY" Name="ResourceClassType" Value="RESOURCECLASS_LUXURY"/>
-		<Row RequirementId="REQ_HAS_IMPROVEMENT" Name="OnlyOwnersCity" Value="True"/>
-		<Row RequirementId="REQ_HAS_IMPROVEMENT" Name="RequirementSetId" Value="HAS_IMPROVEMENT"/>
-		<Row RequirementId="REQ_HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE"/>
-		<Row RequirementId="REQ_HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY"/>
 	</RequirementArguments>
 	<ModifierStrings>
 	</ModifierStrings>
-	<CityNames>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_LIYUE" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_TIANHENG" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_DIHUA" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_WANGSHU" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_QINGCE" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_JUEYUN" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_BISHUI" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_STONE_GATE" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_WUWANG" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_SAL_TERRAE" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_MINLIN" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_CUIJUE" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_HUAGUANG" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_AOCANG" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_HULAO" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_NANTIANMEN" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_QINYUN" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_TIANQIU" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_QIONGJI" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_GUILI" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_MINGYUN" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_YAOGUANG" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_LUHUA" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_LISHA" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_DUNYU" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_LINGJU" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_QINGXU" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_YUNLAI" />
-		<!--Derived from 云来海 Yunlai Hai "Sea of Clouds"-->
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_GUYUN" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CITY_NAME_THE_CHASM" />
-	</CityNames>
-	<CivilizationCitizenNames>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_1" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_2" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_3" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_4" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_5" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_6" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_7" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_8" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_9" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_10" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_11" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_12" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_13" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_14" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_15" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_16" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_17" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_18" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_19" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_20" Female="0" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_1" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_2" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_3" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_4" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_5" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_6" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_7" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_8" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_9" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_10" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_11" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_12" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_13" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_14" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_15" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_16" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_17" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_18" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_19" Female="1" Modern="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_20" Female="1" Modern="1"/>
-	</CivilizationCitizenNames>
-
-	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TerrainType="TERRAIN_COAST" Tier="1"/>
-	</StartBiasTerrains>
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_HEYU_TEAHOUSE" Texture="MOMENT_BUILDING_HEYU_TEAHOUSE"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MILLELITH" Texture="MOMENT_UNIT_MILLELITH"/>

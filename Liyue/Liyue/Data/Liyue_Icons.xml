@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconTextureAtlases>
-		<Row Name="ATLAS_KEQING" IconSize="256" Filename="CHARACTER_KEQING_ICON_256.dds"/>
-		<Row Name="ATLAS_KEQING" IconSize="80" Filename="CHARACTER_KEQING_ICON_80.dds"/>
-		<Row Name="ATLAS_KEQING" IconSize="64" Filename="CHARACTER_KEQING_ICON_64.dds"/>
-		<Row Name="ATLAS_KEQING" IconSize="55" Filename="CHARACTER_KEQING_ICON_55.dds"/>
-		<Row Name="ATLAS_KEQING" IconSize="50" Filename="CHARACTER_KEQING_ICON_50.dds"/>
-		<Row Name="ATLAS_KEQING" IconSize="45" Filename="CHARACTER_KEQING_ICON_45.dds"/>
-		<Row Name="ATLAS_KEQING" IconSize="32" Filename="CHARACTER_KEQING_ICON_32.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="256" Filename="ICON_LEADER_KEQING_256.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="80" Filename="ICON_LEADER_KEQING_80.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="64" Filename="ICON_LEADER_KEQING_64.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="55" Filename="ICON_LEADER_KEQING_55.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="50" Filename="ICON_LEADER_KEQING_50.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="45" Filename="ICON_LEADER_KEQING_45.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="32" Filename="ICON_LEADER_KEQING_32.dds"/>
 		<Row Name="ATLAS_NINGGUANG" IconSize="32" Filename="LEADER_NINGGUANG_ICON_32"/>
 		<Row Name="ATLAS_NINGGUANG" IconSize="45" Filename="LEADER_NINGGUANG_ICON_45"/>
 		<Row Name="ATLAS_NINGGUANG" IconSize="48" Filename="LEADER_NINGGUANG_ICON_48"/>

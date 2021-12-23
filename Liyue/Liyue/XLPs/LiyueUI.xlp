@@ -10,31 +10,31 @@
 	<m_PackageName text="LiyueUI"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="CHARACTER_KEQING_ICON_256"/>
+			<m_EntryID text="ICON_LEADER_KEQING_256"/>
 			<m_ObjectName text="Character_Keqing_Icon_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="CHARACTER_KEQING_ICON_32"/>
+			<m_EntryID text="ICON_LEADER_KEQING_32"/>
 			<m_ObjectName text="Character_Keqing_Icon_32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="CHARACTER_KEQING_ICON_45"/>
+			<m_EntryID text="ICON_LEADER_KEQING_45"/>
 			<m_ObjectName text="Character_Keqing_Icon_45"/>
 		</Element>
 		<Element>
-			<m_EntryID text="CHARACTER_KEQING_ICON_50"/>
+			<m_EntryID text="ICON_LEADER_KEQING_50"/>
 			<m_ObjectName text="Character_Keqing_Icon_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="CHARACTER_KEQING_ICON_55"/>
+			<m_EntryID text="ICON_LEADER_KEQING_55"/>
 			<m_ObjectName text="Character_Keqing_Icon_55"/>
 		</Element>
 		<Element>
-			<m_EntryID text="CHARACTER_KEQING_ICON_64"/>
+			<m_EntryID text="ICON_LEADER_KEQING_64"/>
 			<m_ObjectName text="Character_Keqing_Icon_64"/>
 		</Element>
 		<Element>
-			<m_EntryID text="CHARACTER_KEQING_ICON_80"/>
+			<m_EntryID text="ICON_LEADER_KEQING_80"/>
 			<m_ObjectName text="Character_Keqing_Icon_80"/>
 		</Element>
 		<Element>
@@ -222,4 +222,3 @@
 		<Element>WINDOWS</Element>
 	</m_AllowedPlatforms>
 </AssetObjects..XLP>
-

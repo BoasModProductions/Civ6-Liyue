@@ -10,31 +10,31 @@
 	<m_PackageName text="LiyueUI"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ICON_LEADER_KEQING_256"/>
+			<m_EntryID text="CHARACTER_KEQING_ICON_256"/>
 			<m_ObjectName text="Character_Keqing_Icon_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_LEADER_KEQING_32"/>
+			<m_EntryID text="CHARACTER_KEQING_ICON_32"/>
 			<m_ObjectName text="Character_Keqing_Icon_32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_LEADER_KEQING_45"/>
+			<m_EntryID text="CHARACTER_KEQING_ICON_45"/>
 			<m_ObjectName text="Character_Keqing_Icon_45"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_LEADER_KEQING_50"/>
+			<m_EntryID text="CHARACTER_KEQING_ICON_50"/>
 			<m_ObjectName text="Character_Keqing_Icon_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_LEADER_KEQING_55"/>
+			<m_EntryID text="CHARACTER_KEQING_ICON_55"/>
 			<m_ObjectName text="Character_Keqing_Icon_55"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_LEADER_KEQING_64"/>
+			<m_EntryID text="CHARACTER_KEQING_ICON_64"/>
 			<m_ObjectName text="Character_Keqing_Icon_64"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_LEADER_KEQING_80"/>
+			<m_EntryID text="CHARACTER_KEQING_ICON_80"/>
 			<m_ObjectName text="Character_Keqing_Icon_80"/>
 		</Element>
 		<Element>
@@ -78,12 +78,12 @@
 			<m_ObjectName text="Emblem_Liyue_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LEADER_KEQING_LOADING"/>
-			<m_ObjectName text="LEADER_KEQING_NEUTRAL"/>
-		</Element>
-		<Element>
 			<m_EntryID text="LEADER_KEQING_NEUTRAL"/>
 			<m_ObjectName text="LEADER_KEQING_LOADING"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KEQING_LOADING"/>
+			<m_ObjectName text="LEADER_KEQING_NEUTRAL"/>
 		</Element>
 		<Element>
 			<m_EntryID text="MILLELITH_ICON_22"/>
@@ -111,11 +111,11 @@
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_NINGGUANG_LOADING"/>
-			<m_ObjectName text="LEADER_NINGGUANG_LOADING"/>
+			<m_ObjectName text="LEADER_NINGGUANG_NEUTRAL"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_NINGGUANG_NEUTRAL"/>
-			<m_ObjectName text="LEADER_NINGGUANG_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NINGGUANG_LOADING"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_NINGGUANG_ICON_256"/>
@@ -198,27 +198,147 @@
 			<m_ObjectName text="Ganyu_GovernorsCityBannerSlot32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_HEYU_TEAHOUSE_128"/>
-			<m_ObjectName text="ICON_HEYU_TEAHOUSE_128"/>
+			<m_EntryID text="ICON_UNIT_HILICHURL_FIGHTER_22"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_FIGHTER_22"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_HEYU_TEAHOUSE_32"/>
-			<m_ObjectName text="ICON_HEYU_TEAHOUSE_32"/>
+			<m_EntryID text="ICON_UNIT_HILICHURL_FIGHTER_256"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_FIGHTER_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_HEYU_TEAHOUSE_38"/>
-			<m_ObjectName text="ICON_HEYU_TEAHOUSE_38"/>
+			<m_EntryID text="ICON_UNIT_HILICHURL_FIGHTER_32"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_FIGHTER_32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_HEYU_TEAHOUSE_50"/>
-			<m_ObjectName text="ICON_HEYU_TEAHOUSE_50"/>
+			<m_EntryID text="ICON_UNIT_HILICHURL_FIGHTER_38"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_FIGHTER_38"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_HEYU_TEAHOUSE_80"/>
-			<m_ObjectName text="ICON_HEYU_TEAHOUSE_80"/>
+			<m_EntryID text="ICON_UNIT_HILICHURL_FIGHTER_50"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_FIGHTER_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HILICHURL_FIGHTER_80"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_FIGHTER_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HILICHURL_GUARD_22"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_GUARD_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HILICHURL_GUARD_256"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_GUARD_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HILICHURL_GUARD_32"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_GUARD_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HILICHURL_GUARD_38"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_GUARD_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HILICHURL_GUARD_50"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_GUARD_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HILICHURL_GUARD_80"/>
+			<m_ObjectName text="ICON_UNIT_HILICHURL_GUARD_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_200"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_256"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_38"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_50"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_70"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_95"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_FIGHTER_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_200"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_256"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_38"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_50"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_70"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_95"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_128"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_256"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_32"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_38"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_50"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_80"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KEQING_4"/>
+			<m_ObjectName text="BARBAROSSA_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="NINGGUANG_4"/>
+			<m_ObjectName text="BARBAROSSA_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KEQING_1"/>
+			<m_ObjectName text="BARBAROSSA_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="NINGGUANG_1"/>
+			<m_ObjectName text="BARBAROSSA_1"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
 	</m_AllowedPlatforms>
 </AssetObjects..XLP>
+

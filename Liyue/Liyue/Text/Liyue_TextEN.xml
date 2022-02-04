@@ -62,12 +62,12 @@
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--主动宣战-->
-			<Text>Drop your weapons and surrender immediatly!</Text>
+			<Text>Drop your weapons and surrender immediately!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
 			<!--接受使节派遣-->
-			<Text>Not bad, as far as gifts are concerned. Let us on to the next.</Text>
+			<Text>Not bad, as far as gifts are concerned. Let us move on to the next.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
@@ -77,17 +77,17 @@
 
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--请求派遣使节-->
-			<Text>Our delegation have got gifts for you: a lantern that stays alight for a long time, and Golden Shrimp Balls. The taste of a single ball brings so much joy that all the stress of work just melts away.</Text>
+			<Text>Our delegation has got gifts for you: a lantern that stays alight for a long time, and Golden Shrimp Balls. The taste of a single ball brings so much joy that all the stress of work just melts away.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
 			<!--被谴责-->
-			<Text>You just poke your nose into everything that's going on for some reason... You baffle me a lot - how exactly do any of your actions contribute to the longevity of your country?</Text>
+			<Text>You just poke your nose into everything that's going on for some reason... You baffle me a lot; how exactly do any of your actions contribute to the longevity of your country?</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--谴责玩家-->
-			<Text>Don't you have any principle? Hmm, or maybe being untrustworthy is your principle? (Denounces You)</Text>
+			<Text>Don't you have any principles? Hmm, or maybe being untrustworthy is your principle? (Denounces You)</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY" Language="en_US">
@@ -122,7 +122,7 @@
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--请求结盟-->
-			<Text>The more time we spend together, the more I think you're the person of my dreams — An alliance with you is a crucial part of my dreams for the new Liyue.</Text>
+			<Text>The more time we spend together, the more I think you're my ideal person; An alliance with you is a crucial part of my dreams for the new Liyue.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_ANY" Language="en_US">
@@ -132,7 +132,7 @@
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--战败-->
-			<Text>Right idea, wrong time... I will not go quietly...</Text>
+			<Text>Great idea, wrong time... I will not go quietly...</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
@@ -208,7 +208,7 @@
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Ningguang is strong in espionage. By establishing spies in her cities, it's easy for her to prevent Liyue from enemy sabotage. When playing as Ningguang, be sure to keep a lot of international [ICON_TradeRoute] Trade Routes for maximum income. By constructing Mines and Liyue Harbor, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
+			<Text>Ningguang is strong in espionage. By establishing spies in her cities, it's easy for her to prevent Liyue from enemy sabotage. When playing as Ningguang, be sure to keep a lot of international [ICON_TradeRoute] Trade Routes for maximum income. By constructing Mines and Liyue Harbors, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
 		</Row>
 
         <Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="en_US">
@@ -273,7 +273,7 @@
 
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--谴责玩家-->
-			<Text>All that can be said has been said — both the good and the bad — but you still do as you please. Get out of my sight. (Denounces You)</Text>
+			<Text>All that can be said has been said; both the good and the bad, but you still do as you please. Get out of my sight. (Denounces You)</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NINGGUANG_ANY" Language="en_US">
@@ -458,7 +458,7 @@
 			<Text>Harmony with Nature</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_DESCRIPTION" Language="en_US">
-			<Text>Yields from Campus, Commercial Hub, Holy Site, Theater Square and Industrial Zone in this city are +1 in tiles with Charming Appeal, +3 in Breathtaking.</Text>
+			<Text>Yields from Campuses, Commercial Hubs, Holy Sites, Theater Squares and Industrial Zones in this city are +1 in tiles with Charming Appeal, +3 in Breathtaking.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
